@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ASMCollectionViewController.h
 //  PhotoPhun
 //
 //  Created by Ali Asgar Merchant on 1/1/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ASMCollectionViewController : UICollectionViewController
 
 @end
-

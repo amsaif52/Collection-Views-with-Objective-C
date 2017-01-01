@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		86708AC41E198C69008E5BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86708AC31E198C69008E5BAA /* main.m */; };
 		86708AC71E198C69008E5BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86708AC61E198C69008E5BAA /* AppDelegate.m */; };
-		86708ACA1E198C69008E5BAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86708AC91E198C69008E5BAA /* ViewController.m */; };
 		86708ACD1E198C69008E5BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86708ACB1E198C69008E5BAA /* Main.storyboard */; };
 		86708ACF1E198C69008E5BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86708ACE1E198C69008E5BAA /* Assets.xcassets */; };
 		86708AD21E198C69008E5BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86708AD01E198C69008E5BAA /* LaunchScreen.storyboard */; };
+		86708AE11E1994F1008E5BAA /* ASMCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86708AE01E1994F1008E5BAA /* ASMCollectionViewController.m */; };
+		86708AE41E199B55008E5BAA /* ASMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86708AE31E199B55008E5BAA /* ASMCollectionViewCell.m */; };
+		86708AE61E199C5F008E5BAA /* my_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 86708AE51E199C5F008E5BAA /* my_pic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		86708AC31E198C69008E5BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86708AC51E198C69008E5BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86708AC61E198C69008E5BAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86708AC81E198C69008E5BAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86708AC91E198C69008E5BAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86708ACC1E198C69008E5BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86708ACE1E198C69008E5BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86708AD11E198C69008E5BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86708AD31E198C69008E5BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86708ADF1E1994F1008E5BAA /* ASMCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMCollectionViewController.h; sourceTree = "<group>"; };
+		86708AE01E1994F1008E5BAA /* ASMCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMCollectionViewController.m; sourceTree = "<group>"; };
+		86708AE21E199B55008E5BAA /* ASMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMCollectionViewCell.h; sourceTree = "<group>"; };
+		86708AE31E199B55008E5BAA /* ASMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMCollectionViewCell.m; sourceTree = "<group>"; };
+		86708AE51E199C5F008E5BAA /* my_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = my_pic.png; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/my_pic.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		86708AC11E198C69008E5BAA /* PhotoPhun */ = {
 			isa = PBXGroup;
 			children = (
+				86708AE51E199C5F008E5BAA /* my_pic.png */,
 				86708AC51E198C69008E5BAA /* AppDelegate.h */,
 				86708AC61E198C69008E5BAA /* AppDelegate.m */,
-				86708AC81E198C69008E5BAA /* ViewController.h */,
-				86708AC91E198C69008E5BAA /* ViewController.m */,
+				86708ADF1E1994F1008E5BAA /* ASMCollectionViewController.h */,
+				86708AE01E1994F1008E5BAA /* ASMCollectionViewController.m */,
+				86708AE21E199B55008E5BAA /* ASMCollectionViewCell.h */,
+				86708AE31E199B55008E5BAA /* ASMCollectionViewCell.m */,
 				86708ACB1E198C69008E5BAA /* Main.storyboard */,
 				86708ACE1E198C69008E5BAA /* Assets.xcassets */,
 				86708AD01E198C69008E5BAA /* LaunchScreen.storyboard */,
@@ -140,6 +148,7 @@
 			files = (
 				86708AD21E198C69008E5BAA /* LaunchScreen.storyboard in Resources */,
 				86708ACF1E198C69008E5BAA /* Assets.xcassets in Resources */,
+				86708AE61E199C5F008E5BAA /* my_pic.png in Resources */,
 				86708ACD1E198C69008E5BAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86708ACA1E198C69008E5BAA /* ViewController.m in Sources */,
 				86708AC71E198C69008E5BAA /* AppDelegate.m in Sources */,
+				86708AE11E1994F1008E5BAA /* ASMCollectionViewController.m in Sources */,
+				86708AE41E199B55008E5BAA /* ASMCollectionViewCell.m in Sources */,
 				86708AC41E198C69008E5BAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
